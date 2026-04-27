@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Validate Attributes', async ({ request }) => {
+test('Validate Attributes STR', async ({ request }) => {
     const response = await request.get(
         'https://adventurers-guild-api.vercel.app/api/attributes'
     );
